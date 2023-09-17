@@ -14,7 +14,8 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
-      {/* Your layout components */}
+      <Navbar />
+      <SideNavBar />
       {children}
     </>
   );
