@@ -3,7 +3,7 @@ import { Flex, Icon, Text } from "@chakra-ui/react";
 import { NewTabItem } from "./NewPostForm";
 
 type TabItemProps = {
-  item: TabItem;
+  item: NewTabItem;
   selected: boolean;
   setSelectedTab: (value: string) => void;
 };
